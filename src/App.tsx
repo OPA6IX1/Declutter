@@ -1,12 +1,20 @@
 // import React from 'react'
+import { Routes, Route} from "react-router-dom";
+import Home from "./pages/home";
+import LogIn from "./pages/logIn";
+import SignIn from "./pages/signIn";
+import Contact from "./pages/contact";
 
 const App = () => {
   return (
-    <div>
-       <h1 className="text-3xl bg-blue-600 w-[50%] flex justify-center font-bold underline">
-          Hello world!
-        </h1>
-    </div>
+    <main className="mt-16">
+         <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="logIn" element={<LogIn />} />
+        <Route path="SignIn" element={<SignIn />} />
+        <Route path="contact" element={<Contact />} />
+        </Routes>
+    </main>
   )
 }
 
