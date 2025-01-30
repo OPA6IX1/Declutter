@@ -9,7 +9,7 @@ const navBar = () => {
   return (
 
     <nav className="w-full flex items-center justify-evenly mt-5 pb-5 fixed top-11 left-0 z-50 text-black border border-slate-300">
-    <h1 className="text-2xl md:text-[20] font-bold font-[inter]">Exclusive</h1>
+    <h1 className="text-2xl md:text-[20px] font-bold font-[inter]">Exclusive</h1>
 
     <ul className="hidden lg:flex gap-8 items-center text-lg text-[17px] md:text-[18px] font-[poppins] font-[400]">
       <li><NavLink to="/" className="hover:text-gray-300">Home</NavLink></li>
