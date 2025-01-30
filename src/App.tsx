@@ -5,9 +5,9 @@ import Navbar from "./components/navBar"
 import Footer from "./components/footer"
 
 
-import Home from "./pages/home";
-// import LogIn from "./pages/logIn";
-// import SignUp from "./pages/signUp";
+// import Home from "./pages/home";
+import LogIn from "./pages/logIn";
+import SignUp from "./pages/signUp";
 import Contact from "./pages/contact";
 
 const App = () => {
@@ -38,9 +38,9 @@ const App = () => {
 
     <main className="mt-16">
          <Routes>
-        <Route path="/" element={<Home />} />
-        {/* <Route path="logIn" element={<LogIn />} /> */}
-        {/* <Route path="SignUp" element={<SignUp />} /> */}
+        <Route path="/" element={<LogIn />} />
+        <Route path="logIn" element={<LogIn />} />
+        <Route path="SignUp" element={<SignUp />} />
         <Route path="contact" element={<Contact />} />
         </Routes>
     </main>
