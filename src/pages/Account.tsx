@@ -1,4 +1,4 @@
-const AppContact = () => {
+const AppAccount= () => {
   return (
     <>
       <main className="w-full min-h-screen flex flex-col justify-center pt-8 pb-10 bg-gray-50">
@@ -166,4 +166,4 @@ const AppContact = () => {
   );
 };
 
-export default AppContact;
+export default AppAccount;
