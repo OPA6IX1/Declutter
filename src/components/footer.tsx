@@ -9,6 +9,8 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
 const footer = () => {
+const today = new Date();
+
   return (
     <div className="bg-black w-full h-[300px] flex flex-col justify-between mt-15 text-white">
       <div className="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
@@ -81,7 +83,7 @@ const footer = () => {
       
       <div className="w-full flex justify-center items-center bg-black py-4">
         <p className="text-center text-[#F9F9F9] text-[14px] md:text-[12px] font-[poppins] opacity-50">
-          © Copyright Rimel 2025. All rights reserved.
+          © Copyright Rimel {today.getFullYear()}. All rights reserved.
         </p>
       </div>
     </div>
