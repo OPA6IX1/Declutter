@@ -1,24 +1,14 @@
-<<<<<<< HEAD:src/pages/contact.tsx
 
-
-const Contact = () => {
-
-=======
 const AppAccount= () => {
->>>>>>> fef23e51962627cfa2ceb2cff2a4949e1af397ad:src/pages/Account.tsx
   return (
     <>
       <main className="w-full min-h-screen flex flex-col justify-center pt-8 pb-10 bg-gray-50">
         <div className="w-[90%] mx-auto">
-<<<<<<< HEAD:src/pages/contact.tsx
-        
 
-
-export default Contact
 
         <hr className="border-gray-300 w-full mt-7"/>
-=======
->>>>>>> fef23e51962627cfa2ceb2cff2a4949e1af397ad:src/pages/Account.tsx
+
+
           <div className="flex justify-between md:flex-row py-8">
             <div>
               <h1 className="text-[14px] font-semibold font-[poppins] text-black">
@@ -182,8 +172,4 @@ export default Contact
   );
 };
 
-<<<<<<< HEAD:src/pages/contact.tsx
-export default Contact;
-=======
 export default AppAccount;
->>>>>>> fef23e51962627cfa2ceb2cff2a4949e1af397ad:src/pages/Account.tsx
