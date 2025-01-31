@@ -35,7 +35,19 @@ const NavBar = () => {
         </li>
       </ul>
 
+
       <div className="flex gap-5 my-7 items-center ">
+
+    <ul className="hidden lg:flex gap-8 items-center text-lg text-[17px] md:text-[18px] font-[poppins] font-[400]">
+      <li><NavLink to="/" className="hover:text-gray-300">Home</NavLink></li>
+      <li><NavLink to="/contact" className="hover:text-gray-300">Contact</NavLink></li>
+      <li><NavLink to="/about" className="hover:text-gray-300">About</NavLink></li>
+      <li><NavLink to="/signup" className="hover:text-gray-300">Sign Up</NavLink></li>
+      
+    </ul>
+    
+    <div className="flex gap-5 my-7 items-center ">
+
         <form className="flex items-center gap-2 border-none bg-gray-100 px-4 py-2 rounded-md">
           <input
             type="text"
@@ -55,6 +67,7 @@ const NavBar = () => {
         <div className=" bg-[#DB4444] rounded-full p-1 text-white">
           <FiUser size={15} />
         </div>
+      </div>
       </div>
     </nav>
   );
