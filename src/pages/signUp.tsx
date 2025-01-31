@@ -2,7 +2,7 @@
 import cartphone from "../assets/images/cart&phone.png"
 import google from "../assets/images/google.jpg"
 
-const signUp = () => {
+const SignUp = () => {
   return (
     <div>
       <div className="flex h-full w-full  mt-32 justify-between">
@@ -62,4 +62,4 @@ const signUp = () => {
   )
 }
 
-export default signUp
+export default SignUp
