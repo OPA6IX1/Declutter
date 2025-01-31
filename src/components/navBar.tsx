@@ -5,7 +5,7 @@ import { FiUser } from "react-icons/fi";
 import { IoSearchOutline } from "react-icons/io5";
 import { NavLink } from "react-router-dom";
 
-const navBar = () => {
+const NavBar = () => {
   return (
 
     <nav className="w-full flex items-center justify-evenly mt-5 pb-5 fixed top-11 left-0 z-50 text-black border border-slate-300">
@@ -48,4 +48,4 @@ const navBar = () => {
   )
 }
 
-export default navBar
+export default NavBar
