@@ -6,8 +6,8 @@ import Footer from "./components/footer"
 
 
 // import Home from "./pages/home";
-import LogIn from "./pages/logIn";
-import SignUp from "./pages/signUp";
+import LogIn from "./pages/LogIn";
+import SignUp from "./pages/SignUp";
 import Contact from "./pages/contact";
 
 const App = () => {
