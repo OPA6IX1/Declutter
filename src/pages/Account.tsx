@@ -1,14 +1,14 @@
 
-
-const AppContact = () => {
+const AppAccount= () => {
   return (
-  <>
-  
+    <>
       <main className="w-full min-h-screen flex flex-col justify-center pt-8 pb-10 bg-gray-50">
         <div className="w-[90%] mx-auto">
-        
+
 
         <hr className="border-gray-300 w-full mt-7"/>
+
+
           <div className="flex justify-between md:flex-row py-8">
             <div>
               <h1 className="text-[14px] font-semibold font-[poppins] text-black">
@@ -168,9 +168,8 @@ const AppContact = () => {
           </div>
         </div>
       </main>
-
     </>
   );
 };
 
-export default AppContact;
+export default AppAccount;

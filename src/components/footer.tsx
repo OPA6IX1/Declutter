@@ -8,7 +8,7 @@ import { TfiTwitter } from "react-icons/tfi";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
-const footer = () => {
+const Footer = () => {
 const today = new Date();
 
   return (
@@ -90,4 +90,4 @@ const today = new Date();
   );
 };
 
-export default footer;
+export default Footer;
