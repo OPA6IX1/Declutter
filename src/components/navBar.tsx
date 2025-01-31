@@ -16,6 +16,7 @@ const navBar = () => {
       <li><NavLink to="/contact" className="hover:text-gray-300">Contact</NavLink></li>
       <li><NavLink to="/about" className="hover:text-gray-300">About</NavLink></li>
       <li><NavLink to="/signup" className="hover:text-gray-300">Sign Up</NavLink></li>
+      
     </ul>
     
     <div className="flex gap-5 my-7 items-center ">
