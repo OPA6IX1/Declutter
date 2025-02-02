@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import Navbar from "./components/navBar";
 import Footer from "./components/footer";
-
 // import Home from "./pages/home";
 // import SignUp from "./pages/signUp";
 import LogIn from "./pages/LogIn";
