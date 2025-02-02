@@ -10,12 +10,9 @@ import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import AppAccount from "./pages/Account";
 import AppContact from "./pages/Contact";
-<<<<<<< HEAD
 import AppProduct from "./pages/Product";
-
-=======
 import About from "./pages/About";
->>>>>>> f42515efbee45da6f18363aa65270e9356fee3da
+
 
 const App = () => {
   return (
@@ -44,26 +41,16 @@ const App = () => {
         <Navbar />
       </div>
 
-<<<<<<< HEAD
-    <main className="mt-16">
-         <Routes>
-        <Route path="/" element={<LogIn />} />
-        <Route path="logIn" element={<LogIn />} />
-        <Route path="SignUp" element={<SignUp />} />
-        <Route path="account" element={<AppAccount />} />
-        <Route path="contact" element={<AppContact />} />
-        <Route path="Product" element={<AppProduct/>} />
 
-=======
       <main className="mt-16">
         <Routes>
           <Route path="/" element={<LogIn />} />
           <Route path="logIn" element={<LogIn />} />
           <Route path="SignUp" element={<SignUp />} />
+          <Route path="Product" element={<AppProduct />} />
           <Route path="account" element={<AppAccount />} />
           <Route path="contact" element={<AppContact />} />
           <Route path="about" element={<About />} />
->>>>>>> f42515efbee45da6f18363aa65270e9356fee3da
         </Routes>
       </main>
 

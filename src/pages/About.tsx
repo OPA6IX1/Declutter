@@ -59,7 +59,7 @@ function About() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-5 mt-20">
           <div className="border-2 border-gray-300 rounded-lg bg-white shadow-md">
-            <div className="pt-5 flex flex-col gap-3 flex justify-center items-center">
+            <div className="pt-5 flex flex-col gap-3  justify-center items-center">
               <GiShop
                 size={48}
                 className="text-white bg-black border-[5px] border-gray-400 rounded-full p-1 shadow-lg flex items-center justify-center"
@@ -197,7 +197,7 @@ function About() {
 
         <div className="grid grid-cols-3 gap-5 mt-20">
           <div className="">
-            <div className="pt-5 flex flex-col gap-3 flex justify-center items-center">
+            <div className="pt-5 flex flex-col gap-3  justify-center items-center">
               <TbTruckDelivery
                 size={48}
                 className="text-white bg-black border-[5px] border-gray-400 rounded-full p-1 shadow-lg flex items-center justify-center"
