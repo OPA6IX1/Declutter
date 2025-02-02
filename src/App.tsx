@@ -5,8 +5,13 @@ import Navbar from "./components/navBar";
 import Footer from "./components/footer";
 
 // import Home from "./pages/home";
+<<<<<<< HEAD
 import LogIn from "./pages/logIn";
 // import SignUp from "./pages/signUp";
+=======
+import LogIn from "./pages/LogIn";
+import SignUp from "./pages/SignUp";
+>>>>>>> 18f68211fce24983b7733cd592b5c3b2d194e493
 import AppAccount from "./pages/Account";
 import AppContact from "./pages/Contact";
 import About from "./pages/About";

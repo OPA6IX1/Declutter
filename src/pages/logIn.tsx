@@ -2,7 +2,7 @@
 import cartphone from "../assets/images/cart&phone.png"
 
 
-const logIn = () => {
+const LogIn = () => {
   return (
     <div>
       <div className="flex h-full w-full  mt-70 justify-between">
@@ -45,4 +45,4 @@ const logIn = () => {
   )
 }
 
-export default logIn
+export default LogIn

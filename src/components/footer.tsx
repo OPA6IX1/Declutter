@@ -8,8 +8,14 @@ import { TfiTwitter } from "react-icons/tfi";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
+<<<<<<< HEAD
 const AppFooter = () => {
   const currentYear = new Date().getFullYear();
+=======
+const Footer = () => {
+const today = new Date();
+
+>>>>>>> 18f68211fce24983b7733cd592b5c3b2d194e493
   return (
     <div className="bg-black w-full  flex flex-col justify-between mt-15 text-white">
       <div className="w-[90%] mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
@@ -89,4 +95,8 @@ const AppFooter = () => {
   );
 };
 
+<<<<<<< HEAD
 export default AppFooter;
+=======
+export default Footer;
+>>>>>>> 18f68211fce24983b7733cd592b5c3b2d194e493

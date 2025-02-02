@@ -1,7 +1,7 @@
 // import React from 'react'
 
 
-const home = () => {
+const Home = () => {
   return (
     <div>
       <h1 className="text-red-200">Home</h1>
@@ -9,4 +9,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home
