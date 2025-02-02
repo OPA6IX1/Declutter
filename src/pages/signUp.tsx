@@ -5,7 +5,7 @@ import google from "../assets/images/google.jpg"
 const SignUp = () => {
   return (
     <div>
-      <div className="flex h-full w-full  mt-32 justify-between">
+      <div className="flex h-full w-full  mt-70 justify-between">
         <div className=" ">
           <img src={cartphone} alt=""/>
         </div>

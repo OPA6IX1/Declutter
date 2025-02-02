@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   return (
     <nav className="w-full flex items-center bg-white justify-evenly mt-5 pb-5 fixed top-11 left-0 z-50 text-black border border-slate-300">
-      <h1 className="text-2xl md:text-[20px] font-bold font-[inter]">
+      <h1 className="text-2xl pr-20 md:text-[20px] font-bold font-[inter]">
         Exclusive
       </h1>
 

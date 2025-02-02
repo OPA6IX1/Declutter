@@ -9,7 +9,8 @@ import Footer from "./components/footer"
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import AppAccount from "./pages/Account";
-import AppContact from "./pages/contact";
+import AppContact from "./pages/Contact";
+import AppProduct from "./pages/Product";
 
 
 const App = () => {
@@ -48,6 +49,7 @@ const App = () => {
         <Route path="SignUp" element={<SignUp />} />
         <Route path="account" element={<AppAccount />} />
         <Route path="contact" element={<AppContact />} />
+        <Route path="Product" element={<AppProduct/>} />
 
         </Routes>
     </main>
