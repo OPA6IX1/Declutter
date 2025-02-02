@@ -8,18 +8,19 @@ import { TfiTwitter } from "react-icons/tfi";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa6";
 
-const Footer = () => {
-const today = new Date();
+
+const AppFooter = () => {
+  const currentYear = new Date().getFullYear();
 
   return (
-    <div className="bg-black w-full h-[300px] flex flex-col justify-between mt-15 text-white">
-      <div className="w-[90%] mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5">
+    <div className="bg-black w-full  flex flex-col justify-between mt-15 text-white">
+      <div className="w-[90%] mx-auto grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
         
         <div className="mt-10">
           <h2 className="pb-2 text-[20px] md:text[16px] font-semi-bold font-[inter]">Exclusive</h2>
           <p className="mt-2 text-[12px] md:text[7px]  font-[poppins] leading-6">Subscribe</p>
           <p className="mt-2 text-[12px] md:text[7px] font-[poppins] text-[#FAFAFA] leading-6">Get 10% off your first order</p>
-          <div className=" flex items-center gap-2 border px-2 py-1 mt-2">
+          <div className="mt-2 flex items-center gap-2 border px-2 py-1 ">
             <input
               type="email"
               placeholder="Enter your email"
@@ -59,14 +60,14 @@ const today = new Date();
         </div>
 
         
-        <div className="mt-10">
+        <div className="mt-10 ">
           <h2 className="text-[14px] md:text[12px]  font-[poppins]">Download App</h2>
           <p className="mt-2 text-[12px] md:text[7px] font-[poppins] text-[#FAFAFA] leading-6">Save $3 with App New Users Only</p>
-          <div className="flex md:flex-row gap-2 mt-3">
+          <div className="flex md:flex-row gap-3 mt-3">
             <div>
               <img src={code} alt="code" />
             </div>
-            <div className="flex flex-row md:flex-col gap-3">
+            <div className="flex flex-row md:flex-col gap-4">
               <img src={appstore} alt="App Store" />
               <img src={googleplay} alt="Google Play" />
             </div>
@@ -83,11 +84,13 @@ const today = new Date();
       
       <div className="w-full flex justify-center items-center bg-black py-4">
         <p className="text-center text-[#F9F9F9] text-[14px] md:text-[12px] font-[poppins] opacity-50">
-          © Copyright Rimel {today.getFullYear()}. All rights reserved.
+          © Copyright Rimel {currentYear}. All rights reserved.
         </p>
       </div>
     </div>
   );
 };
 
-export default Footer;
+
+export default AppFooter;
+
