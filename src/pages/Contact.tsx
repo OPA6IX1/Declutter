@@ -58,24 +58,24 @@ function AppContact() {
                   type="text"
                   id="yourname"
                   placeholder="Your Name *"
-                  className="border border-gray-300 bg-gray-100 rounded p-2 text-[14px] md:text-[12px] font-[poppins] w-full"
+                  className="border-none border-gray-300 bg-gray-100 rounded p-2 text-[14px] md:text-[12px] font-[poppins] w-full"
                 />
                 <input
                   type="email"
                   id="email"
                   placeholder="Your Email *"
-                  className="border border-gray-300 bg-gray-100 rounded p-2 text-[14px] md:text-[12px] font-[poppins] w-full"
+                  className="border-none border-gray-300 bg-gray-100 rounded p-2 text-[14px] md:text-[12px] font-[poppins] w-full"
                 />
                 <input
                   type="text"
                   id="phonenumber"
                   placeholder="Your Phone *"
-                  className="border border-gray-300 bg-gray-100 rounded p-2 text-[14px] md:text-[12px] font-[poppins] w-full"
+                  className="border-none border-gray-300 bg-gray-100 rounded p-2 text-[14px] md:text-[12px] font-[poppins] w-full"
                 />
               </div>
               <div className="mt-5">
                 <textarea
-                  className="w-full h-40 p-3 border border-gray-300 bg-gray-100 rounded text-[14px] md:text-[12px] font-[poppins]"
+                  className="w-full h-40 p-3 border-none border-gray-300 bg-gray-100 rounded text-[14px] md:text-[12px] font-[poppins]"
                   placeholder="Your Message..."
                 ></textarea>
               </div>

@@ -1,47 +1,50 @@
 // import React from 'react'
-import { Routes, Route} from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import Navbar from "./components/navBar"
-import Footer from "./components/footer"
-
+import Navbar from "./components/navBar";
+import Footer from "./components/footer";
 
 // import Home from "./pages/home";
+// import SignUp from "./pages/signUp";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import AppAccount from "./pages/Account";
 import AppContact from "./pages/Contact";
+<<<<<<< HEAD
 import AppProduct from "./pages/Product";
 
+=======
+import About from "./pages/About";
+>>>>>>> f42515efbee45da6f18363aa65270e9356fee3da
 
 const App = () => {
   return (
     <>
-    
-       
-          <div className="h-16 w-full flex justify-center  fixed top-0 left-0 bg-black shadow-lg z-50">
+      <div className="h-16 w-full flex justify-center  fixed top-0 left-0 bg-black shadow-lg z-50">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-8 py-2">
+          <p className="text-[18px] md:text-[18px] font-[poppins] font-[400] text-white text-center opacity-70 ">
+            Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
+          </p>
 
-            <div className="flex flex-col md:flex-row items-center justify-between gap-4 px-4 md:px-8 py-2">
-              <p className="text-[18px] md:text-[18px] font-[poppins] font-[400] text-white text-center opacity-70 ">Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</p>
-              
-              <div className="flex justify-center mt-7 gap-70 ">
-                <p className="text-[20px] md:text-[18px] font-[poppins] font[600] text-white">
-                  <a href="/login" className="text-white underline">
-                    ShopNow
-                  </a>
-                </p>
+          <div className="flex justify-center mt-7 gap-70 ">
+            <p className="text-[20px] md:text-[18px] font-[poppins] font[600] text-white">
+              <a href="/login" className="text-white underline">
+                ShopNow
+              </a>
+            </p>
 
-                <p className="flex mb-8 text-[30px] md:text-[16px] font-[poppins] font[600] text-white ">
-                English<RiArrowDropDownLine size={30}/>
-
-                </p>
-              </div>
-            </div>
-            
+            <p className="flex mb-8 text-[30px] md:text-[16px] font-[poppins] font[600] text-white ">
+              English
+              <RiArrowDropDownLine size={30} />
+            </p>
           </div>
-          <div className="mt-15  w-full">
-            <Navbar />
-          </div>
+        </div>
+      </div>
+      <div className="mt-15  w-full">
+        <Navbar />
+      </div>
 
+<<<<<<< HEAD
     <main className="mt-16">
          <Routes>
         <Route path="/" element={<LogIn />} />
@@ -51,18 +54,24 @@ const App = () => {
         <Route path="contact" element={<AppContact />} />
         <Route path="Product" element={<AppProduct/>} />
 
+=======
+      <main className="mt-16">
+        <Routes>
+          <Route path="/" element={<LogIn />} />
+          <Route path="logIn" element={<LogIn />} />
+          <Route path="SignUp" element={<SignUp />} />
+          <Route path="account" element={<AppAccount />} />
+          <Route path="contact" element={<AppContact />} />
+          <Route path="about" element={<About />} />
+>>>>>>> f42515efbee45da6f18363aa65270e9356fee3da
         </Routes>
-    </main>
+      </main>
 
+      <div className="mt-15  w-full">
+        <Footer />
+      </div>
+    </>
+  );
+};
 
-      
-     <div className="mt-15  w-full">
-        <Footer/>
-      </div>  
-
-  </>
-
-  )
-}
-
-export default App
+export default App;
