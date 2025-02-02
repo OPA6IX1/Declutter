@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 import LogIn from "./pages/logIn";
 // import SignUp from "./pages/signUp";
 import AppAccount from "./pages/Account";
-import AppContact from "./pages/contact";
+import AppContact from "./pages/Contact";
 import About from "./pages/About";
 
 const App = () => {
