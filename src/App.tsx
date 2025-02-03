@@ -10,7 +10,7 @@ import AppAccount from "./pages/Account";
 import AppContact from "./pages/Contact";
 import AppProduct from "./pages/Product";
 import About from "./pages/About";
-// import CartPage from "./pages/CartPage";
+import CartPage from "./pages/CartPage";
 
 
 const App = () => {
@@ -50,7 +50,7 @@ const App = () => {
           <Route path="account" element={<AppAccount />} />
           <Route path="contact" element={<AppContact />} />
           <Route path="about" element={<About />} />
-          {/* <Route path="CartPage" element={<CartPage />} /> */}
+          <Route path="CartPage" element={<CartPage />} />
         </Routes>
       </main>
 
