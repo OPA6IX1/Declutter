@@ -4,13 +4,13 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import Navbar from "./components/navBar";
 import Footer from "./components/footer";
 // import Home from "./pages/home";
-// import SignUp from "./pages/signUp";
 import LogIn from "./pages/LogIn";
 import SignUp from "./pages/SignUp";
 import AppAccount from "./pages/Account";
 import AppContact from "./pages/Contact";
 import AppProduct from "./pages/Product";
 import About from "./pages/About";
+// import CartPage from "./pages/CartPage";
 
 
 const App = () => {
@@ -50,6 +50,7 @@ const App = () => {
           <Route path="account" element={<AppAccount />} />
           <Route path="contact" element={<AppContact />} />
           <Route path="about" element={<About />} />
+          {/* <Route path="CartPage" element={<CartPage />} /> */}
         </Routes>
       </main>
 
