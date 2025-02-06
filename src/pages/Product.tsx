@@ -1,7 +1,7 @@
 // import React from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer, toast } from "react-toastify";
 import image1 from "../assets/images/white-gaming-pad.png";
 import image2 from "../assets/images/small-gaming-pad4.png";
 import image3 from "../assets/images/small-gaming-pad3.png";
@@ -18,6 +18,7 @@ import { RiLoader3Line } from "react-icons/ri";
 
 const AppProduct = () => {
   const [quantity, setQuantity] = useState<number>(1);
+  const [size, setSize] = useState<string>("S");
 
   const decreaseQuantity = () => {
     if (quantity === 1 || quantity < 1) {
@@ -118,12 +119,15 @@ const AppProduct = () => {
             <div className="flex gap-5 mb-4">
               <h4 className="text-xl font-medium font-[poppins] mb-2">Size:</h4>
               <div className="flex gap-2">
-                {["S", "M", "L", "XL"].map((size) => (
+                {["S", "M", "L", "XL"].map((value) => (
                   <button
-                    key={size}
-                    className="px-3 py-1 border rounded hover:bg-red-500"
+                    key={value}
+                    className={`px-3 py-1 border rounded hover:bg-red-500 hover:text-white cursor-pointer ${
+                      value === size && "bg-red-500 text-white"
+                    }`}
+                    onClick={() => setSize(value)}
                   >
-                    {size}
+                    {value}
                   </button>
                 ))}
               </div>
@@ -132,9 +136,21 @@ const AppProduct = () => {
             {/* Quantity and Buy Now */}
             <div className="flex items-center gap-4 mb-4">
               <div className="flex items-center border rounded">
-                <button className="px-3 py-1   hover:bg-red-500 disabled:hover:bg-transparent" onClick={decreaseQuantity}>-</button><ToastContainer />
+                <button
+                  className="px-3 py-1   hover:bg-red-500 disabled:hover:bg-transparent"
+                  onClick={decreaseQuantity}
+                >
+                  -
+                </button>
+                <ToastContainer />
                 <span className="px-3 py-1">{quantity}</span>
-                <button className="px-3 py-1 hover:bg-red-500 disabled:hover:bg-transparent" onClick={increaseQuantity}>+</button><ToastContainer />
+                <button
+                  className="px-3 py-1 hover:bg-red-500 disabled:hover:bg-transparent"
+                  onClick={increaseQuantity}
+                >
+                  +
+                </button>
+                <ToastContainer />
               </div>
               <button className="px-8 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">
                 Buy Now
