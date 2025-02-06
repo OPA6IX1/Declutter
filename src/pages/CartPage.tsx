@@ -2,19 +2,26 @@
 
 const CartPage = () => {
   return (
-    <div className="p-4 md:p-8 lg:p-16 bg-gray-50">
-      <h1 className="text-2xl font-bold mb-6">Cart</h1>
-
+    <div className=" py-4 md:p-8  lg:p-55 mt-10 bg-amber-300">
+      <div className=" mr-46 mb-15">
+          <h1 className="text-[14px] gap-5 font-semibold opacity-50 font-[poppins] text-black">
+            <span className="">Home</span>
+            <span className="mx-4">/</span>
+            <span className="">Cart</span>
+          </h1>
+        </div>
       {/* Cart Table */}
       <div className="overflow-x-auto">
         <table className="w-full bg-white border rounded-lg text-left">
           <thead>
-            <tr className="border-b">
-              <th className="p-4 text-gray-700 font-semibold">Product</th>
-              <th className="p-4 text-gray-700 font-semibold">Price</th>
-              <th className="p-4 text-gray-700 font-semibold">Quantity</th>
-              <th className="p-4 text-gray-700 font-semibold">Subtotal</th>
-            </tr>
+            <div>
+              <tr className="border-b">
+                <th className="p-4 text-gray-700 font-semibold">Product</th>
+                <th className="p-4 text-gray-700 font-semibold">Price</th>
+                <th className="p-4 text-gray-700 font-semibold">Quantity</th>
+                <th className="p-4 text-gray-700 font-semibold">Subtotal</th>
+              </tr>
+            </div>
           </thead>
           <tbody>
             <tr className="border-b">
